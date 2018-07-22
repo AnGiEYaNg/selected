@@ -1,9 +1,12 @@
 # selected
 
-## to start server
+## install packages
+npm in
+
+## start server
 npm start
 
-## to compile react
+## compile react
 npm run webpack
 
 go to: http://localhost:3000/ 
