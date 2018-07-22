@@ -1,7 +1,7 @@
 # selected
 
 ## install packages
-npm in
+npm i
 
 ## start server
 npm start
