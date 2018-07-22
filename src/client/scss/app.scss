@@ -1,0 +1,86 @@
+$theme-color: #f48022;
+$link-color: #427679;
+
+body {
+	padding: 20px;
+	font-family: AvenirNextRegular,HelveticaNeue-Light,Helvetica,Arial,sans-serif;
+	min-width:650px;
+}
+
+.logo {
+	width: 15%;
+	min-width: 150px;
+	height: auto;
+}
+
+.user {
+	width: 80%;
+	margin:auto;
+	text-align: right;
+	font-size: 20px;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+
+	&_link {
+		margin: 20px;
+		padding: 5px;
+		text-transform: uppercase;
+		color: $link-color;
+		font-size: 16px;
+		cursor: pointer;
+		display: flex;
+	}
+
+	&_link-active {
+		border-bottom: 2px solid $theme-color;
+	}
+
+}
+
+.message_count {
+	border-radius: 3em;
+	padding: 0.5em;
+	color: white;
+	font-size: 10px;
+	margin-right: 5px;
+	background-color: $theme-color;
+	transform: translateY(-60%)
+}
+
+.content {
+	width: 50%;
+	margin: auto;
+}
+
+.instruction_container {
+	text-align: center;
+}
+
+.message {
+	&_container {
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px dashed grey;
+		padding: 10px 5px;
+	}
+	&_content {
+		display: flex;
+		align-items: center;
+	}
+
+	&_new {
+		background-color: none;
+		width: 10px;
+		height: 10px;
+		margin-right: 15px;
+		border-radius: 50%;
+		&-active {
+			background-color: $theme-color;
+		}
+	}
+
+
+}
